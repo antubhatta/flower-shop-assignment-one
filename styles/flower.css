@@ -54,10 +54,44 @@ header {
     width: 500px;
     height: 600px;
 }
-
-
-
 /* featured flow related section */
+.featured-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1900px;
+    margin: 0 aut0;
+    
+}
+.img-one{
+    width: 310px;
+height: 428px;
+border-radius: 300px 300px 0px 0px;
+background-color: rgba(167, 33, 98, 0.15);
+padding: 80px 35px 0px 35px;
+}
+.img-two{
+    width: 370px;
+height: 370px;
+    border-radius: 300px 300px 0px 0px;
+background-color: rgba(5, 151, 160, 0.15);
+padding: 97px 40px 50px 40px;
+
+}
+.img-three{
+    width: 314px;
+height: 471px;
+border-radius: 300px 300px 0px 0px;
+background-color: rgba(71, 125, 17, 0.15);
+padding: 47px 55px 0px 55px;
+}
+.img-flower{
+    width: 464px;
+height: 538px;
+margin-bottom: 32px;
+
+}
+
 .featured-title{
 color: #272727;
 text-align: center;
