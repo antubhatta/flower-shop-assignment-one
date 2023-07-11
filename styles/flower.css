@@ -16,7 +16,7 @@
     margin-bottom: 50px;
 
 }
-.featured-title, .instagram-title{
+.main-title{
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -24,12 +24,21 @@
     margin-top: 160px;
     margin-bottom: 20px;
     }
-    .featured-desc, .instagram-desc{
+    .main-desc{
         color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 48px;
+    }
+    .main-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 24px;
+            max-width: 1900px;
+            margin: 0 aut0;
+            padding-top: 48px;
     }
 
 /* banner related styles */
@@ -70,16 +79,6 @@ header {
     height: 600px;
 }
 /* featured flow related section */
-.featured-images{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-    max-width: 1900px;
-    margin: 0 aut0;
-    padding-top: 48px;
-    
-}
 .featured-img-one{
     width: 310px;
 height: 428px;
@@ -144,21 +143,39 @@ margin-bottom: 32px;
     width: 300px;
     height: 400px;
 }
-/* instagram flowers section */
-
-
+/* instagram flowers section and deals section */
 .instagram-content{
     margin-top: 120px;
 }
-.flowers-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
+ .deals-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
     max-width: 1900px;
-    margin: 0 aut0;
-    padding-top: 48px;
-    margin-bottom: 120px;   
-}
+    margin: 0px aut0;
+    text-align: center;
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 80px;
+    margin-bottom: 128px;
+ }
+ .forms input[type=email] {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 450px 20px 22px;
+    border:0px;
+    border-radius: 8px;
+background: #FFF;
+margin-bottom: 120px;
+outline: none;
+margin-right: 10px;
+
+ }
+ .deals-container p{
+    margin-bottom: 20px;
+ }
+ 
+ 
+
 
 
