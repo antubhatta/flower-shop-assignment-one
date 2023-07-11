@@ -157,7 +157,7 @@ margin-bottom: 32px;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 80px;
-    margin-bottom: 128px;
+    margin-bottom: 100px;
  }
  .forms input[type=email] {
     text-align: center;
@@ -174,6 +174,34 @@ margin-right: 10px;
  .deals-container p{
     margin-bottom: 20px;
  }
+ /* footer related-section */
+ .footer-container{
+    text-align: center;
+    background-color:#111010;
+ }
+ .footer-title{
+    color: #FFFFFF;
+font-size: 48px;
+font-weight: 800;
+padding-top: 100px;
+margin-bottom: 24px;
+ }
+ .footer-flower{
+    color: #E55473;
+ }
+ .footer-desc{
+    color: rgba(255, 255, 255, 0.90);
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 32px;
+ }
+ .footer-copy-right{
+    color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 100px;
+ }
+
  
  
 
