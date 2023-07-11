@@ -16,6 +16,21 @@
     margin-bottom: 50px;
 
 }
+.featured-title, .instagram-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 160px;
+    margin-bottom: 20px;
+    }
+    .featured-desc, .instagram-desc{
+        color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    }
 
 /* banner related styles */
 
@@ -102,23 +117,6 @@ text-decoration-line: underline;
 margin-top: 32px;
 margin-bottom: 100px;
 }
-
-.featured-title{
-color: #272727;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
-margin-top: 160px;
-margin-bottom: 20px;
-}
-.featured-desc{
-    color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-margin-bottom: 48px;
-}
-
 /* Hot deal related section */
 .discount-container{
     display: flex;
@@ -145,6 +143,22 @@ margin-bottom: 32px;
 .discount-image{
     width: 300px;
     height: 400px;
+}
+/* instagram flowers section */
+
+
+.instagram-content{
+    margin-top: 120px;
+}
+.flowers-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    max-width: 1900px;
+    margin: 0 aut0;
+    padding-top: 48px;
+    margin-bottom: 120px;   
 }
 
 
