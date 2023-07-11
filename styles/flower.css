@@ -65,14 +65,14 @@ header {
     padding-top: 48px;
     
 }
-.img-one{
+.featured-img-one{
     width: 310px;
 height: 428px;
 border-radius: 300px 300px 0px 0px;
 background-color: rgba(167, 33, 98, 0.15);
 padding: 110px 78px 0px 76px;
 }
-.img-two{
+.featured-img-two{
     width: 370px;
 height: 370px;
     border-radius: 300px 300px 0px 0px;
@@ -80,20 +80,20 @@ background-color: rgba(5, 151, 160, 0.15);
 padding: 117px 47px 51px 47px;
 
 }
-.img-three{
+.featured-img-three{
     width: 314px;
 height: 471px;
 border-radius: 300px 300px 0px 0px;
 background-color: rgba(71, 125, 17, 0.15);
 padding: 67px 75px 0px 75px;
 }
-.img-flower{
+.featured-img-flower{
     width: 464px;
 height: 538px;
 margin-bottom: 32px;
 
 }
-.imges-desc{
+.featured-imges-desc{
     color: #272727;
 text-align: center;
 font-size: 24px;
